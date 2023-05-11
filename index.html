@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- STYLES -->
+    <script type='text/javascript' src='config.js'></script>
+    <link rel="stylesheet" href="/style.css" />
+
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main-container">
+      <div>
+        <h1 id="main-title">Youtube Video Maker!</h1>
+      </div>
+      <div id="main-content">
+        <h2>Enter Your Video Topic</h2>
+        <input
+          id="word-input1"
+          type="text"
+          placeholder="enter your video topic"
+          required
+        />
+        <h2>Enter your video length (in minutes)</h2>
+        <input
+          id="word-input2"
+          type="text"
+          placeholder="enter your video length (in minutes)"
+          required
+        />
+        <button id="submit-btn">SEND</button>
+        <span id="error"></span>
+      </div>
+      <h1>TITLES :</h1>
+      <div id="reply-content1"></div>
+      <h1>THUMBNAILS :</h1>
+      <div id="reply-content2"></div>
+      <h1>DESCRIPTION :</h1>
+      <div id="reply-content3"></div>
+      <h1>TWEETS :</h1>
+      <div id="reply-content4"></div>
+    </div>
+  </body>
+
+      <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+</html>
